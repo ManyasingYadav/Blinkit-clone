@@ -6,7 +6,7 @@ A Blinkit-inspired grocery e-commerce frontend built using React and Vite.
 
 * React.js
 * JavaScript
-* Vite
+* Vitenow 
 * HTML5
 * CSS3
 * ESLint

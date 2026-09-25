@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import Navbar from './components/Navrbar'
+import Categories from './components/categories'
+import Banner from './components/Banner'
 import './App.css'
+import Product from './components/Product'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <div>
-      <h1>Blinkit</h1>
+     <Navbar/>
+     <Categories/>
+     <Banner/>
+     <Product/>
     </div>
     
   )
